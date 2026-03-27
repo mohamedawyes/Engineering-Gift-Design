@@ -1,0 +1,22 @@
+packages:
+  "framer-motion": "For smooth page transitions and interactive Apple-style card hover effects"
+  "recharts": "For the voltage drop vs distance visualization charts"
+  "jspdf": "For generating professional PDF engineering reports"
+  "jspdf-autotable": "For rendering clean tables in the PDF reports"
+  "xlsx": "For exporting calculation results and inputs to Excel format"
+  "date-fns": "For clean date formatting in history and reports"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility function to efficiently merge Tailwind CSS classes in JS"
+
+images:
+  - path: "artifacts/engineering-gift/public/images/hero-bg.png"
+    description: "Ultra-modern abstract background with soft flowing gradient meshes in deep tech blues, cyan, and subtle purple accents, Apple-like frosted glass feel, pristine and professional."
+    aspect_ratio: "16:9"
+  - path: "artifacts/engineering-gift/public/images/logo.png"
+    description: "Minimalist geometric logo mark for an engineering app, representing precise measurements and connectivity, using deep blue and bright cyan colors on a transparent background."
+    aspect_ratio: "1:1"
+
+notes:
+  - "The App will use @workspace/api-client-react for all API interactions."
+  - "The dark mode toggle will apply the `.dark` class to the html document element."
+  - "jsPDF and sheetjs are entirely client-side and require no backend changes."
